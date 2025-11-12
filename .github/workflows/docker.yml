@@ -20,4 +20,4 @@ jobs:
         with:
           context: foosball/
           push: true
-          tags: mareishawb/docker-github-action:${{github.run_number}}
+          tags: mareishawb/foosball:${{github.run_number}}
